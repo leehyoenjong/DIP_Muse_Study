@@ -31,7 +31,7 @@ MonoBehaviour:
       data:
         m_Guid: 5a148f84-72e2-4a72-8622-6697a1233788
         m_State: 1
-        m_Disposing: 0
+        m_Disposing: 1
         m_Styles:
         - rid: 5263066915587228298
         m_Version: 202231001
@@ -42,7 +42,7 @@ MonoBehaviour:
         m_State: 1
         m_Disposing: 0
         m_Styles:
-        - rid: 5263066921522168479
+        - rid: 5263066921750757832
         m_Version: 202231001
     - rid: 5263066915587228296
       type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
@@ -85,7 +85,7 @@ MonoBehaviour:
       data:
         m_Guid: df3a6ab5-e53c-40f7-b6e0-ed67ab8c9b8a
         m_State: 1
-        m_Disposing: 0
+        m_Disposing: 1
         m_IsFallback: 0
         m_Thumbnail:
           rid: 5263066915587228299
@@ -98,7 +98,7 @@ MonoBehaviour:
         m_CheckPoints:
         - m_Guid: 56293301-16b2-407f-bac6-7666b7da43c4
           m_State: 1
-          m_Disposing: 0
+          m_Disposing: 1
           m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
           m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
           m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
@@ -138,7 +138,7 @@ MonoBehaviour:
           m_TrainingSteps: 200
         - m_Guid: 66f8e719-03c6-491f-9e7c-b77d8c8b2c03
           m_State: 1
-          m_Disposing: 0
+          m_Disposing: 1
           m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
           m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
           m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
@@ -178,7 +178,7 @@ MonoBehaviour:
           m_TrainingSteps: 400
         - m_Guid: 6ade80ac-d149-4de0-b531-4d64f5ca8f4f
           m_State: 1
-          m_Disposing: 0
+          m_Disposing: 1
           m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
           m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
           m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
@@ -218,7 +218,7 @@ MonoBehaviour:
           m_TrainingSteps: 600
         - m_Guid: dee70b3b-69d8-4e2f-879e-9b58e454533d
           m_State: 1
-          m_Disposing: 0
+          m_Disposing: 1
           m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
           m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
           m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
@@ -258,7 +258,7 @@ MonoBehaviour:
           m_TrainingSteps: 800
         - m_Guid: bc649ee0-dcd3-4724-af75-2b29ecc851f8
           m_State: 1
-          m_Disposing: 0
+          m_Disposing: 1
           m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
           m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
           m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
@@ -298,7 +298,7 @@ MonoBehaviour:
           m_TrainingSteps: 1000
         - m_Guid: 39887f1c-2f8d-42c7-b0d4-e84dcecfc5a5
           m_State: 1
-          m_Disposing: 0
+          m_Disposing: 1
           m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
           m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
           m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
@@ -338,7 +338,7 @@ MonoBehaviour:
           m_TrainingSteps: 1200
         - m_Guid: 39b131ae-34e7-4aae-8751-8a51931ec13d
           m_State: 1
-          m_Disposing: 0
+          m_Disposing: 1
           m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
           m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
           m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
@@ -378,7 +378,7 @@ MonoBehaviour:
           m_TrainingSteps: 1400
         - m_Guid: 947f7a96-0195-4811-8d03-a6525cbf6ba0
           m_State: 1
-          m_Disposing: 0
+          m_Disposing: 1
           m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
           m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
           m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
@@ -418,7 +418,7 @@ MonoBehaviour:
           m_TrainingSteps: 1600
         - m_Guid: 60a5b354-f201-4192-b53f-69940827ad62
           m_State: 1
-          m_Disposing: 0
+          m_Disposing: 1
           m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
           m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
           m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
@@ -458,7 +458,7 @@ MonoBehaviour:
           m_TrainingSteps: 1800
         - m_Guid: e5beedba-b590-4e27-87e0-849da2fcacca
           m_State: 1
-          m_Disposing: 0
+          m_Disposing: 1
           m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
           m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
           m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
@@ -569,7 +569,7 @@ MonoBehaviour:
         m_Guid: 39d29c9b-262f-4bc1-8d2d-3869e5bbc157
         m_State: 1
         m_Disposing: 1
-    - rid: 5263066921522168479
+    - rid: 5263066921750757832
       type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
       data:
         m_Guid: 5cc104e0-423a-473e-8034-b9d346cb2357
