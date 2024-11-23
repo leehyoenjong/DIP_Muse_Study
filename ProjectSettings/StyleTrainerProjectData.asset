@@ -1,0 +1,657 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07c9b2c97f84356bb2bfac29363e611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StyleTrainerData:
+    rid: 5263066915587228140
+  m_DefaultStyleData:
+    rid: 5263066915587228141
+  m_DefaultStyleVersion: 2023111600
+  m_DefaultStyles:
+  - rid: 5263066915587228296
+  m_AssetPath: 
+  m_PreviousProjectIDs: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 5263066915587228140
+      type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 5a148f84-72e2-4a72-8622-6697a1233788
+        m_State: 1
+        m_Disposing: 0
+        m_Styles:
+        - rid: 5263066915587228298
+        m_Version: 202231001
+    - rid: 5263066915587228141
+      type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 11000000-0000-0000-0000-000000000011
+        m_State: 1
+        m_Disposing: 0
+        m_Styles:
+        - rid: 5263066921522168479
+        m_Version: 202231001
+    - rid: 5263066915587228296
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 1
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 0
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 00000000-0000-0000-0000-000000000000
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 00000000-0000-0000-0000-000000000000
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 00000000-0000-0000-0000-000000000000
+          m_Name: Default
+          m_Description: Default style.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 
+            m_State: 0
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 
+          m_ValidationImagesData: []
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 2000
+        m_SampleOutputPrompts: []
+        m_TrainingSetData: []
+        m_Name: Default
+        m_Description: Default style.
+    - rid: 5263066915587228298
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: df3a6ab5-e53c-40f7-b6e0-ed67ab8c9b8a
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: 5263066915587228299
+        m_Visible: 1
+        selectedCheckPointGUID: e5beedba-b590-4e27-87e0-849da2fcacca
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 56293301-16b2-407f-bac6-7666b7da43c4
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: c893384f-39b4-43af-aa87-7c136c07a070
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_ValidationImagesData:
+          - m_Guid: c8977c1a-fc6a-4441-a581-3c70ea13fa28
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: c8977c1a-fc6a-4441-a581-3c70ea13fa28
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: creature from norse mythology
+          - m_Guid: 3f65df83-a3cc-4742-8fbb-7dd237f42256
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 3f65df83-a3cc-4742-8fbb-7dd237f42256
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: standing in a dark, misty forest
+          - m_Guid: 403056e7-f5bb-43cb-b2b0-35c76efd2922
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 403056e7-f5bb-43cb-b2b0-35c76efd2922
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: glowing red eyes piercing through the darkness
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 200
+        - m_Guid: 66f8e719-03c6-491f-9e7c-b77d8c8b2c03
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: c893384f-39b4-43af-aa87-7c136c07a070
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_ValidationImagesData:
+          - m_Guid: 90f3a961-c357-4b7d-85ab-82b1059c2278
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 90f3a961-c357-4b7d-85ab-82b1059c2278
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: creature from norse mythology
+          - m_Guid: 4b45b6df-28e6-400a-8267-40f23fca849b
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 4b45b6df-28e6-400a-8267-40f23fca849b
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: standing in a dark, misty forest
+          - m_Guid: b2f11422-096d-46d7-a37c-62a5c64f7950
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: b2f11422-096d-46d7-a37c-62a5c64f7950
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: glowing red eyes piercing through the darkness
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 400
+        - m_Guid: 6ade80ac-d149-4de0-b531-4d64f5ca8f4f
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: c893384f-39b4-43af-aa87-7c136c07a070
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_ValidationImagesData:
+          - m_Guid: 3cc9302f-76d8-452b-95f4-9d225a593efa
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 3cc9302f-76d8-452b-95f4-9d225a593efa
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: creature from norse mythology
+          - m_Guid: c815fb29-e101-42cf-81fa-8758e448d59f
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: c815fb29-e101-42cf-81fa-8758e448d59f
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: standing in a dark, misty forest
+          - m_Guid: 113b995c-23d8-4614-8966-99f6520f3365
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 113b995c-23d8-4614-8966-99f6520f3365
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: glowing red eyes piercing through the darkness
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 600
+        - m_Guid: dee70b3b-69d8-4e2f-879e-9b58e454533d
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: c893384f-39b4-43af-aa87-7c136c07a070
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_ValidationImagesData:
+          - m_Guid: 666822b4-0a85-4eba-b746-856030e513b0
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 666822b4-0a85-4eba-b746-856030e513b0
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: creature from norse mythology
+          - m_Guid: fbb0b644-f0b5-4add-8856-387f94e65625
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: fbb0b644-f0b5-4add-8856-387f94e65625
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: standing in a dark, misty forest
+          - m_Guid: 47f9af2a-8cbd-4c98-91dc-99f29942b815
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 47f9af2a-8cbd-4c98-91dc-99f29942b815
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: glowing red eyes piercing through the darkness
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 800
+        - m_Guid: bc649ee0-dcd3-4724-af75-2b29ecc851f8
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: c893384f-39b4-43af-aa87-7c136c07a070
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_ValidationImagesData:
+          - m_Guid: 8146dd33-dd5b-428a-a78c-c6f9f1028691
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 8146dd33-dd5b-428a-a78c-c6f9f1028691
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: creature from norse mythology
+          - m_Guid: 79b08f20-8633-412a-8aaf-807e68355c68
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 79b08f20-8633-412a-8aaf-807e68355c68
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: standing in a dark, misty forest
+          - m_Guid: e0acd48a-c5e4-485a-8eb6-12977431069e
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: e0acd48a-c5e4-485a-8eb6-12977431069e
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: glowing red eyes piercing through the darkness
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1000
+        - m_Guid: 39887f1c-2f8d-42c7-b0d4-e84dcecfc5a5
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: c893384f-39b4-43af-aa87-7c136c07a070
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_ValidationImagesData:
+          - m_Guid: dcd351a0-c864-4247-a258-f7d10ed77279
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: dcd351a0-c864-4247-a258-f7d10ed77279
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: creature from norse mythology
+          - m_Guid: c422a653-14b5-46a9-98e9-5fe4c729477c
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: c422a653-14b5-46a9-98e9-5fe4c729477c
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: standing in a dark, misty forest
+          - m_Guid: 6ae61e24-2526-4f32-b6de-d1f93c0bb4cc
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 6ae61e24-2526-4f32-b6de-d1f93c0bb4cc
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: glowing red eyes piercing through the darkness
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1200
+        - m_Guid: 39b131ae-34e7-4aae-8751-8a51931ec13d
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: c893384f-39b4-43af-aa87-7c136c07a070
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_ValidationImagesData:
+          - m_Guid: fa0630bc-375a-44d4-bd80-11e63e8898d3
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: fa0630bc-375a-44d4-bd80-11e63e8898d3
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: creature from norse mythology
+          - m_Guid: 07b78573-fe48-43eb-811c-134eebaf8907
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 07b78573-fe48-43eb-811c-134eebaf8907
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: standing in a dark, misty forest
+          - m_Guid: 3c44476c-58c0-4a25-90d4-96b6fc0d8600
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 3c44476c-58c0-4a25-90d4-96b6fc0d8600
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: glowing red eyes piercing through the darkness
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1400
+        - m_Guid: 947f7a96-0195-4811-8d03-a6525cbf6ba0
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: c893384f-39b4-43af-aa87-7c136c07a070
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_ValidationImagesData:
+          - m_Guid: 57f187a7-0740-4b1d-90cf-329dd91c002d
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 57f187a7-0740-4b1d-90cf-329dd91c002d
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: creature from norse mythology
+          - m_Guid: 777a4366-a841-4e75-b02a-2196b3f2e4a0
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 777a4366-a841-4e75-b02a-2196b3f2e4a0
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: standing in a dark, misty forest
+          - m_Guid: 3201c6c3-1588-4d2b-b253-642f219ecb79
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 3201c6c3-1588-4d2b-b253-642f219ecb79
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: glowing red eyes piercing through the darkness
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1600
+        - m_Guid: 60a5b354-f201-4192-b53f-69940827ad62
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: c893384f-39b4-43af-aa87-7c136c07a070
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_ValidationImagesData:
+          - m_Guid: 947c9cff-d81f-4786-987a-1113ed099dc2
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 947c9cff-d81f-4786-987a-1113ed099dc2
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: creature from norse mythology
+          - m_Guid: 9be378b9-af37-4076-a545-b320ede2fbbb
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 9be378b9-af37-4076-a545-b320ede2fbbb
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: standing in a dark, misty forest
+          - m_Guid: ed6cf3cd-cf8f-4fef-8901-6e442cc65326
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: ed6cf3cd-cf8f-4fef-8901-6e442cc65326
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: glowing red eyes piercing through the darkness
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1800
+        - m_Guid: e5beedba-b590-4e27-87e0-849da2fcacca
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: c893384f-39b4-43af-aa87-7c136c07a070
+            m_State: 5
+            m_Disposing: 1
+            m_TrainingSet: []
+            m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+          m_ValidationImagesData:
+          - m_Guid: 765a65b1-f32d-4f89-b71e-46ebb092957f
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: 765a65b1-f32d-4f89-b71e-46ebb092957f
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: creature from norse mythology
+          - m_Guid: aa09dc16-5153-40a6-a789-7b23712ff68c
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: aa09dc16-5153-40a6-a789-7b23712ff68c
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: standing in a dark, misty forest
+          - m_Guid: d4b29bc5-653f-4b24-84a0-264f97f62b00
+            m_State: 5
+            m_Disposing: 1
+            m_ImageArtifact:
+              m_Guid: d4b29bc5-653f-4b24-84a0-264f97f62b00
+              m_State: 1
+              m_Disposing: 1
+            m_Prompt: glowing red eyes piercing through the darkness
+          m_FavoriteSampleOutputDataGuid: 765a65b1-f32d-4f89-b71e-46ebb092957f
+          m_TrainingSteps: 2000
+        m_SampleOutputPrompts:
+        - creature from norse mythology
+        - standing in a dark, misty forest
+        - glowing red eyes piercing through the darkness
+        m_TrainingSetData:
+        - m_Guid: c893384f-39b4-43af-aa87-7c136c07a070
+          m_State: 1
+          m_Disposing: 0
+          m_TrainingSet:
+          - m_Guid: 8382ab31-2a2d-4aeb-ae2f-72f00a0d3f4d
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 5263066916918395409
+          - m_Guid: 6b6526a9-62a3-4a11-ad8a-5ea78d23f4e3
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 5263066916918395410
+          - m_Guid: 738bffe2-64bf-4552-bbe6-3a0cbf701129
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 5263066916918395411
+          - m_Guid: 31be0c54-1a63-48f8-b7d9-5b93f8d57c7f
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 5263066916918395412
+          - m_Guid: 39d29c9b-262f-4bc1-8d2d-3869e5bbc157
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 5263066916918395413
+          m_ProjectID: 5a148f84-72e2-4a72-8622-6697a1233788
+        m_Name: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+        m_Description: "\uBD81\uC720\uB7FD \uC2E0\uD654\uC758 \uD06C\uB9AC\uCCD0"
+    - rid: 5263066915587228299
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 3
+        m_Disposing: 1
+    - rid: 5263066916918395409
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 8382ab31-2a2d-4aeb-ae2f-72f00a0d3f4d
+        m_State: 1
+        m_Disposing: 1
+    - rid: 5263066916918395410
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 6b6526a9-62a3-4a11-ad8a-5ea78d23f4e3
+        m_State: 1
+        m_Disposing: 1
+    - rid: 5263066916918395411
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 738bffe2-64bf-4552-bbe6-3a0cbf701129
+        m_State: 1
+        m_Disposing: 1
+    - rid: 5263066916918395412
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 31be0c54-1a63-48f8-b7d9-5b93f8d57c7f
+        m_State: 1
+        m_Disposing: 1
+    - rid: 5263066916918395413
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 39d29c9b-262f-4bc1-8d2d-3869e5bbc157
+        m_State: 1
+        m_Disposing: 1
+    - rid: 5263066921522168479
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 5cc104e0-423a-473e-8034-b9d346cb2357
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 1
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 11000000-0000-0000-0000-000000000011
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 11000000-0000-0000-0000-000000000011
+          m_Name: 'Happy Harvest [Orion V4 2000]'
+          m_Description: 8 Nov 2023
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 3e758588-960f-44f5-865a-d5eaa1b1dec4
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 11000000-0000-0000-0000-000000000011
+          m_ValidationImagesData:
+          - m_Guid: 96b39a19-2d3e-4bc5-aa3c-38667ed6eba5
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 96b39a19-2d3e-4bc5-aa3c-38667ed6eba5
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A chicken
+          - m_Guid: 05de072c-ebbc-43d7-886b-7ac4f9cbd079
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 05de072c-ebbc-43d7-886b-7ac4f9cbd079
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A cow
+          - m_Guid: 2dbfc212-f87b-45f9-a05a-06368e190ca1
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2dbfc212-f87b-45f9-a05a-06368e190ca1
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A dog
+          - m_Guid: e0139464-a868-402a-95b8-b4c26685a97b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: e0139464-a868-402a-95b8-b4c26685a97b
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A farmer
+          - m_Guid: 4421bead-a3ff-4c09-9514-61e127eb470e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 4421bead-a3ff-4c09-9514-61e127eb470e
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A pine tree
+          m_FavoriteSampleOutputDataGuid: 
+          m_TrainingSteps: 1200
+        m_SampleOutputPrompts:
+        - A chicken
+        - A cow
+        - A dog
+        - A farmer
+        - A pine tree
+        m_TrainingSetData:
+        - m_Guid: 3e758588-960f-44f5-865a-d5eaa1b1dec4
+          m_State: 5
+          m_Disposing: 0
+          m_TrainingSet: []
+          m_ProjectID: 11000000-0000-0000-0000-000000000011
+        m_Name: Default
+        m_Description: Default Style
