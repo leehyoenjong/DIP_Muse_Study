@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Attack_Target_Tag
+  - Monster
   layers:
   - Default
   - TransparentFX

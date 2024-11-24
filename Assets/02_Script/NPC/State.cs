@@ -6,5 +6,6 @@ public enum State
 {
     Move,
 	Attack,
-	Wait
+	Wait,
+	Die
 }
